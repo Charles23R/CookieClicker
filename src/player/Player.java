@@ -11,7 +11,7 @@ public class Player {
     private Label nbClics;
 
     public Player() {
-        this.clicker = new Button("Miner");
+        this.clicker = new Button("Pêcher");
         this.pointParClic = 1;
         this.ptAuto = 0;
         this.nbClics = new Label("0");;

@@ -8,7 +8,8 @@ import player.Player;
 public abstract class Amelioration {
     private Button bouton;
     private Label effet;
-    private int level;
+    private Label level;
+    private Label cout;
 
     public abstract void ameliorer(Player player);
 
@@ -28,11 +29,19 @@ public abstract class Amelioration {
         this.effet = effet;
     }
 
-    public int getLevel() {
+    public Label getLevel() {
         return level;
     }
 
-    public void setLevel(int level) {
+    public void setLevel(Label level) {
         this.level = level;
+    }
+
+    public Label getCout() {
+        return cout;
+    }
+
+    public void setCout(Label cout) {
+        this.cout = cout;
     }
 }
